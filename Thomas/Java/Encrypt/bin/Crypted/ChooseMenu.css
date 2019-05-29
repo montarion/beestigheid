@@ -1,0 +1,23 @@
+.button {
+    -fx-font: 16px "Arial Black";
+    -fx-padding: 10;
+  	-fx-background-color: #ffffff;
+    -fx-border-radius: 20;
+    -fx-background-radius: 14;
+    -fx-text-fill: #000000;
+}
+
+.button:hover {
+	-fx-background-radius: 16;
+	-fx-text-fill: linear-gradient(#0a3912, #0b3c13);
+}
+
+.label {
+	-fx-font: 20px "Arial Black";
+	-fx-padding: 10;
+	-fx-text-fill: #ffffff;
+}
+
+.root {
+	-fx-background-color: linear-gradient(#000000, #11601f);
+}

@@ -1,0 +1,33 @@
+.button {
+    -fx-font: 12px "Arial Black";
+    -fx-padding: 5 20 5 20;
+  	-fx-background-color: #ffffff;
+    -fx-border-radius: 20;
+    -fx-background-radius: 14;
+    -fx-text-fill: #000000;
+}
+
+.button:hover {
+	-fx-text-fill: linear-gradient(#0a3912, #0b3c13);
+}
+
+.label {
+	-fx-font: 17px "Arial Black";
+	-fx-padding: 0;
+	-fx-text-fill: #ffffff;
+}
+
+.textfields{
+	-fx-font: 11.5px "Arial Black";
+	-fx-border-color: linear-gradient(#0a3912, #0b3c13);
+}
+
+.KeyLabel{
+	-fx-font: 13px "Arial Black";
+	-fx-padding: 0;
+	-fx-text-fill: #ffffff;
+}
+
+.root {
+	-fx-background-color: #000000;
+}

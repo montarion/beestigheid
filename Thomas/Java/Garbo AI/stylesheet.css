@@ -1,0 +1,74 @@
+.root {
+		-fx-background-image: url("background.png");
+		-fx-background-size:cover;
+		-fx-font: 17px "Arial";
+}
+
+.scroll-pane > .viewport {
+   		-fx-background-color: transparent;
+}
+
+.scroll-pane {
+   		-fx-background-color: transparent;
+}
+
+.text-area {
+    	-fx-background-insets: 0;
+    	-fx-background-color: transparent, #e6ffe6, transparent, #e6ffe6;
+    	-fx-background-radius: 0, 0, 0, 0;
+
+    	-fx-focus-color: -fx-control-inner-background;
+    	-fx-faint-focus-color: -fx-control-inner-background;
+    	-fx-text-box-border: -fx-control-inner-background;
+    	-fx-border-width: -1;
+}
+
+.text-area .content {
+    	-fx-background-color: transparent, #e6ffe6, transparent, #e6ffe6;
+}
+
+.text-area:focused .content {
+    	-fx-background-color: transparent, #e6ffe6, transparent, #e6ffe6;
+}
+
+.scroll-pane {
+}
+
+.viewport {
+    	-fx-background-insets: 0;
+    	-fx-background-color: transparent, #e6ffe6, transparent, #e6ffe6;
+    	-fx-background-radius: 0, 0, 0, 0;
+	
+    	-fx-focus-color: -fx-control-inner-background;
+    	-fx-faint-focus-color: -fx-control-inner-background;
+    	-fx-text-box-border: -fx-control-inner-background;
+    	-fx-border-width: -1;
+}
+
+.content {
+}
+
+.text {
+}
+
+.text-area:focused {
+    	-fx-highlight-fill: #7ecfff;
+
+    	-fx-background-insets: 0;
+    	-fx-background-color: transparent, #e6ffe6, transparent, #e6ffe6;
+    	-fx-background-radius: 0, 0, 0, 0;
+
+    	-fx-focus-color: -fx-control-inner-background;
+    	-fx-faint-focus-color: -fx-control-inner-background;
+    	-fx-text-box-border: -fx-control-inner-background;
+}
+
+.text-field {
+    	-fx-background-color: #e6ffe6 , white , white;
+    	-fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused {
+    	-fx-background-color: #e6ffe6 , white , white;
+    	-fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
