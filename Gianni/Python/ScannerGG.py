@@ -3,6 +3,7 @@
 import subprocess
 import os
 import time
+import sys
 
 def onePing(ipinput):
     #check if input is a string first
@@ -16,12 +17,22 @@ def onePing(ipinput):
     
     return returncode, result
 
+def checkFile(filee):
+    if os.path.isfile(filee):
+        print("file bestaat, nice.")
+    else:
+        print("not")
+        sys.exit("File testcomparisonoutput bestaat niet, lekker leuk.")
+   
 
 def main():
+    #check if file is even there, otherwise why run...
+    checkFile('./testcomparisonoutput.txt')
+    #continue anyway 
     i = 1
-    while i < 255:
+    while i < 4:
         #Build command
-        ipStart = "192.168.178.{}".format(str(i))
+        ipStart = "192.168.56.{}".format(str(i))
         doPingS = "ping -c 1 {}".format(ipStart).split()
         #return output from doPingS
         returnCode, output = onePing(ipStart)
